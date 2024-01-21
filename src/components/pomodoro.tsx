@@ -21,7 +21,7 @@ const Pomodoro = () => {
 
   const [count, { startCountdown, stopCountdown, resetCountdown }] =
     useCountdown({
-      countStart: 1 * 5,
+      countStart: 25 * 60,
       intervalMs: 1000,
     });
   const [isPaused, setIsPaused] = useState(false);
